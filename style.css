@@ -1,0 +1,35 @@
+:root {
+    --blue1: #8e6ceb;
+    --blue2: #bd6cf3;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, var(--blue2) 0%, var(--blue1) 100%);
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #007bff;
+    margin: 15px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
